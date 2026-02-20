@@ -26,7 +26,7 @@ Thanks!
 
 ## Installation
 
-**Note:** Installation differs by platform. Claude Code or Cursor have built-in plugin marketplaces. Codex and OpenCode require manual setup.
+**Note:** Installation differs by platform. Claude Code or Cursor have built-in plugin marketplaces. Codex, OpenCode, and GitHub Copilot require manual setup.
 
 
 ### Claude Code (via Plugin Marketplace)
@@ -70,6 +70,18 @@ Fetch and follow instructions from https://raw.githubusercontent.com/obra/superp
 ```
 
 **Detailed docs:** [docs/README.opencode.md](docs/README.opencode.md)
+
+### GitHub Copilot (VS Code Agent Mode & CLI)
+
+Clone the repo and run the manual setup:
+
+```bash
+git clone https://github.com/lvthillo/superpowers.git ~/.copilot/superpowers
+```
+
+Then follow the steps in [.copilot/INSTALL.md](.copilot/INSTALL.md) to symlink skills into `~/.copilot/skills/` and register the `SessionStart` hook in `~/.claude/settings.json`. Works for both VS Code agent mode and Copilot CLI with the same setup.
+
+**Detailed docs:** [docs/README.copilot.md](docs/README.copilot.md)
 
 ### Verify Installation
 

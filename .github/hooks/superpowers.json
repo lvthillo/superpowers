@@ -1,0 +1,11 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "type": "command",
+        "command": "./hooks/copilot-session-start.sh",
+        "timeout": 15
+      }
+    ]
+  }
+}
